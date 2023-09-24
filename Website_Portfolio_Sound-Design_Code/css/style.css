@@ -7,6 +7,21 @@
   box-sizing: border-box;
 }
 
+/*Extra Normalizing*/
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
