@@ -2,31 +2,71 @@
 /* CSS
 /*******************************************/
 
-/* Box Model Hack */
-*{
-  box-sizing: border-box;
-}
+  /* Box Model Hack */
 
-/*Extra Normalizing*/
+  *{
+    box-sizing: border-box;
+  }
 
-li{
-  list-style: none;
-}
+  /*Extra Normalizing*/
 
-ul{
-  padding: 0;
-  margin: 0;
-}
+  li{
+    list-style: none;
+  }
 
-a{
-  text-decoration: none;
-}
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+/******************************************
+/* Reuse and Common Declarations
+/*******************************************/
+
+  /*Color*/
+
+  /*Font*/
+
+  /*Layout*/
+
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+  }
+
+   .flex-column{
+    display: flex;
+    flex-direction: column;
+   }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+  /*Heaader/Tittle Page Section*/
 
+  .tittle-page{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .tittle-page-card{
+    border: 2px solid green; 
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+  }
+
+  /*Demo-Reel Section*/
+
+  
 
 /******************************************
 /* ADDITIONAL STYLES
