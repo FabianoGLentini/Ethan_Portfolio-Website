@@ -71,23 +71,28 @@
     justify-content: center;
     align-items: center;
     border: 2px solid red;
-    height: 110vh;
+    height: max(110vh, auto);
+    padding: 30vh 0;
   }
 
   .demor-reel iframe{
-    width: 75%;
+    width: min(95%, 1280px);
     aspect-ratio: 16/9;
   }  
 
   /*About Me Section*/
 
   .about-me{
-    position: relative;
-    width: min(44.8%,645px);
-    min-width: 350px;
+    display: flex;
+    justify-content: flex-end;
   }
 
-  .about-me h3{
+  .about-me-body{
+    margin: 15rem 5rem;
+    width: min(100%,645px);
+  }
+
+  .about-me-body h3{
     text-align: center;
   }
 
