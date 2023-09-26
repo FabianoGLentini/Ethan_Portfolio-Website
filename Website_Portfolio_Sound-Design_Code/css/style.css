@@ -114,7 +114,7 @@
   .projects{
     border: 2px solid red;
 
-    height: 450px;
+    height: max(450px, fit-content);
     margin: 5rem;
     text-align: center;
   }
@@ -123,6 +123,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 5rem;
+    margin: 5rem;
   }
 
   .projects-list li{
@@ -135,7 +136,7 @@
     position: relative;
     flex-direction: column;
     justify-content: flex-end;
-    width: 255px;
+    width: 220px;
   }
 
   /*Footer*/
