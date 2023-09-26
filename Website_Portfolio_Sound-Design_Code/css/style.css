@@ -23,6 +23,12 @@
     text-decoration: none;
   }
 
+  /*Font set up*/
+
+  html{
+    font-size: 62.5%;
+  }
+
 /******************************************
 /* Reuse and Common Declarations
 /*******************************************/
@@ -51,6 +57,7 @@
 
   .tittle-page{
     border: 2px solid blue;
+
     display: flex;
     align-items: center;
     height: 100vh;
@@ -58,6 +65,7 @@
 
   .tittle-page-card{
     border: 2px solid green; 
+
     align-items: center;
     justify-content: center;
     height: 70%;
@@ -67,10 +75,11 @@
   /*Demo-Reel Section*/
 
   .demor-reel{
+    border: 2px solid red;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
     height: max(110vh, auto);
     padding: 30vh 0;
   }
@@ -83,17 +92,42 @@
   /*About Me Section*/
 
   .about-me{
+    border: 2px solid blue;
+
     display: flex;
     justify-content: flex-end;
   }
 
   .about-me-body{
+    border: 2px solid green;
+
     margin: 15rem 5rem;
-    width: min(100%,645px);
+    width: min(100%,400px);
   }
 
   .about-me-body h3{
     text-align: center;
+  }
+
+  /*Projects Section*/
+
+  .projects{
+    border: 2px solid red;
+    
+    text-align: center;
+  }
+
+  .projects-list ul{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .projects-list li{
+    border: 2px solid green;
+
+    display: flex;
+    margin: 2rem;    
+    width: 150px;
   }
 
 /******************************************
