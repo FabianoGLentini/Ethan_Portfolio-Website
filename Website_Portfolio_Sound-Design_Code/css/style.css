@@ -138,6 +138,25 @@
     width: 255px;
   }
 
+  /*Footer*/
+
+  footer{
+    border: 2px solid blue;
+
+    justify-content: space-between;
+    height: 800px;
+  }
+
+  footer div{
+    margin: 25rem 7rem;
+  }
+
+  .footer__see-more--righ {
+    text-align: end;
+  }
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
