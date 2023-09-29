@@ -35,6 +35,16 @@
 
   /*Color*/
 
+  :root {
+    --dark-focus-01: #05090c9d;
+    --main-02: #044B77;
+    --acsent-00: #ED3B0D;
+    --acsent--01: #478CB9;
+    --acsent-02: #0a6197a8;
+    --white: #FFFFFF;
+    --transparent: #ffffff00;
+  }
+
   
   /*Import Fonts*/
 
@@ -113,7 +123,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    width: max(100%, 1100px);
+    width: max(100%, 1200px);
   }
 
   .tittle-page {
@@ -129,6 +139,8 @@
 
     align-items: center;
     justify-content: space-between;
+    backdrop-filter: blur(5px);
+    background-color: var(--dark-focus-01);
     height: 75%;
     width: 100%;
   }
