@@ -42,6 +42,7 @@
     --acsent--01: #478CB9;
     --acsent-02: #0a6197a8;
     --white: #FFFFFF;
+    --black: hsl(0, 0%, 0%);
     --transparent: #ffffff00;
   }
 
@@ -156,6 +157,7 @@
 
   .tittle-page-card__nav {
     border-bottom: 2.5px solid ;
+    
     display: flex;
     justify-content: space-between;
     padding: 0 3rem;
@@ -190,6 +192,7 @@
     align-items: center;
     height: max(110vh, auto);
     padding: 30vh 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6921296296296297) 6%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 87%, rgba(0,0,0,0.5277777777777778) 96%, rgba(0,0,0,0) 100%);
   }
 
   .demor-reel iframe {
