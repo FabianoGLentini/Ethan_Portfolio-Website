@@ -4,28 +4,28 @@
 
   /* Box Model Hack */
 
-  *{
+  * {
     box-sizing: border-box;
   }
 
   /*Extra Normalizing*/
 
-  li{
+  li {
     list-style: none;
   }
 
-  ul{
+  ul {
     padding: 0;
     margin: 0;
   }
 
-  a{
+  a {
     text-decoration: none;
   }
 
   /*Font set up*/
 
-  html{
+  html {
     font-size: 62.5%;
   }
 
@@ -35,16 +35,68 @@
 
   /*Color*/
 
+  
+  /*Import Fonts*/
+
+  @font-face {
+    font-family: "Roboto";
+    font-style: "Bold";
+    font-weight: 700;
+    src: url("Fonts/Roboto-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 200;
+    src: url("Fonts/Roboto-Bold.ttf");
+  }
+
   /*Font*/
+
+  h1 {
+    font-family: "Roboto";
+    font-size: 14.8rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-family: "Roboto";
+    font-size: 6.4rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: "Roboto";
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-family: "Roboto";
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .tittle-page-card__nav--left a {
+    font-family: "Inter";
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 700;
+  }
 
   /*Layout*/
 
-  .flex-row{
+  .flex-row {
     display: flex;
     flex-direction: row;
   }
 
-   .flex-column{
+   .flex-column {
     display: flex;
     flex-direction: column;
    }
@@ -55,26 +107,54 @@
 
   /*Heaader/Tittle Page Section*/
 
-  .tittle-page{
+  .tittle-page {
     border: 2px solid blue;
 
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
   }
 
-  .tittle-page-card{
+  .tittle-page-card {
     border: 2px solid green; 
 
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 70%;
     width: 100%;
+    /* padding: 7rem; */
+  }
+  
+  .tittle-page-card__nav {
+    border-bottom: 2.5px solid ;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 3rem; */
+    /* height: 20px; */
+    width: 100%;
+  }
+
+  .tittle-page-card__nav > ul li {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tittle-page-card__nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tittle-page-card__nav--right {
+    width: 15%;
+  }
+
+  .tittle-page-card__nav--left {
+    width: 35%;
   }
 
   /*Demo-Reel Section*/
 
-  .demor-reel{
+  .demor-reel {
     border: 2px solid red;
 
     display: flex;
@@ -84,49 +164,53 @@
     padding: 30vh 0;
   }
 
-  .demor-reel iframe{
+  .demor-reel iframe {
     width: min(95%, 1280px);
     aspect-ratio: 16/9;
   }  
 
   /*About Me Section*/
 
-  .about-me{
+  .about-me {
     border: 2px solid blue;
+    background-color: red;
 
     display: flex;
+    height: 800px;
     justify-content: flex-end;
   }
 
-  .about-me-body{
+  .about-me-body {
     border: 2px solid green;
 
-    margin: 15rem 5rem;
-    width: min(100%,400px);
+    height: 300px;
+    margin: 15rem 10rem;
+    padding: 2rem;
+    width: min(100%,350px);
   }
 
-  .about-me-body h3{
+  .about-me-body h3 {
     text-align: center;
   }
 
   /*Projects Section*/
 
-  .projects{
+  .projects {
     border: 2px solid red;
 
-    height: max(450px, fit-content);
+    height: max(500px, fit-content);
     margin: 5rem;
     text-align: center;
   }
 
-  .projects-list ul{
+  .projects-list ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 5rem;
     margin: 5rem;
   }
 
-  .projects-list li{
+  .projects-list li {
     border: 2px solid green;
 
     display: flex;
@@ -141,14 +225,14 @@
 
   /*Footer*/
 
-  footer{
+  footer {
     border: 2px solid blue;
 
     justify-content: space-between;
     height: 800px;
   }
 
-  footer div{
+  footer div {
     margin: 25rem 7rem;
   }
 
