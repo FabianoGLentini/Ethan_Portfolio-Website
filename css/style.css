@@ -234,18 +234,22 @@
     border: 2px solid blue;
 
     display: flex;
+    color: var(--white);
     height: 800px;
     justify-content: flex-end;
   }
 
   .about-me-body {
-    border: 2px solid green;
-    background-color: blue;
+    /* border: 2px solid green; */
+    /* background-color: blue; */
 
+    position: relative;
+    z-index: -1px;
     margin: 15rem 10rem;
-    padding: 1rem;
+    padding: 1.5rem;
     height: 50%;
     width: min(100%,350px);
+    background: var(--acsent-02);
   }
 
   .about-me-body h3 {
