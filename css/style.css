@@ -1,0 +1,291 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+  /* Box Model Hack */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /*Extra Normalizing*/
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*Font set up*/
+
+  html {
+    font-size: 62.5%;
+  }
+
+/******************************************
+/* Reuse and Common Declarations
+/*******************************************/
+
+  /*Color*/
+
+  :root {
+    --dark-focus-01: #05090c9d;
+    --main-02: #044B77;
+    --acsent-00: #ED3B0D;
+    --acsent--01: #478CB9;
+    --acsent-02: #0a6197a8;
+    --white: #FFFFFF;
+    --black: hsl(0, 0%, 0%);
+    --transparent: #ffffff00;
+  }
+
+  
+  /*Import Fonts*/
+
+  @font-face {
+    font-family: "Roboto";
+    font-style: "Bold";
+    font-weight: 700;
+    src: url("Fonts/Roboto-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 200;
+    src: url("Fonts/Roboto-Bold.ttf");
+  }
+
+  /*Font*/
+
+  h1 {
+    font-family: "Roboto";
+    font-size: 14.8rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-family: "Roboto";
+    font-size: 6.4rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: "Roboto";
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-family: "Roboto";
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .tittle-page-card__nav--left a {
+    font-family: "Inter";
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  /*Layout*/
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+   .flex-column {
+    display: flex;
+    flex-direction: column;
+   }
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+  /*Heaader/Tittle Page Section*/
+
+  .parallax-01 {
+    position: absolute;
+    background-image: url("Img/Cloud__Upside-down_TittleBg\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: max(100%, 1200px);
+  }
+
+  .tittle-page {
+    border: 2px solid blue;
+
+    display: flex;
+    align-items: center;
+    height: 95vh;
+  }
+
+  .tittle-page-card {
+    border: 2px solid green; 
+
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    background-color: var(--dark-focus-01);
+    height: 75%;
+    width: 100%;
+  }
+
+  .tittle-page-card__body {
+    border: 2px solid blue;
+    
+    justify-content: space-between;
+    padding: 5rem;
+    height: 100%;
+    width: min(100%, 1220px);
+  }
+
+  .tittle-page-card__nav {
+    border-bottom: 2.5px solid ;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    width: 100%;
+  }
+
+  .tittle-page-card__nav > ul li {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tittle-page-card__nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tittle-page-card__nav--right {
+    width: 15%;
+  }
+
+  .tittle-page-card__nav--left {
+    width: 35%;
+  }
+
+  /*Demo-Reel Section*/
+
+  .demor-reel {
+    border: 2px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max(110vh, auto);
+    padding: 30vh 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6921296296296297) 6%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 87%, rgba(0,0,0,0.5277777777777778) 96%, rgba(0,0,0,0) 100%);
+  }
+
+  .demor-reel iframe {
+    width: min(95%, 1280px);
+    aspect-ratio: 16/9;
+  }  
+
+  /*Big Parallax*/
+
+  .parallax-02 {
+    /* width: 100vw; */
+    width: 110vw;
+    margin-top: 650px;
+    z-index: -1;
+    right: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*About Me Section*/
+
+  .about-me {
+    border: 2px solid blue;
+
+    display: flex;
+    height: 800px;
+    justify-content: flex-end;
+  }
+
+  .about-me-body {
+    border: 2px solid green;
+    background-color: blue;
+
+    margin: 15rem 10rem;
+    padding: 1rem;
+    height: 50%;
+    width: min(100%,350px);
+  }
+
+  .about-me-body h3 {
+    text-align: center;
+  }
+
+  /*Projects Section*/
+
+  .projects {
+    border: 2px solid red;
+
+    height: max(500px, fit-content);
+    margin: 5rem;
+    text-align: center;
+  }
+
+  .projects-list ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 5rem;
+  }
+
+  .projects-list li {
+    border: 2px solid green;
+
+    display: flex;
+    border-radius: 55px;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 220px;
+  }
+
+  /*Footer*/
+
+  footer {
+    border: 2px solid blue;
+
+    justify-content: space-between;
+    height: 800px;
+  }
+
+  footer div {
+    margin: 25rem 7rem;
+  }
+
+  .footer__see-more--righ {
+    text-align: end;
+  }
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
