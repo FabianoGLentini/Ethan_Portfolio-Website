@@ -146,7 +146,7 @@
     border: 2px solid green; 
 
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     backdrop-filter: blur(5px);
     background-color: var(--dark-focus-01);
     height: 75%;
@@ -163,7 +163,7 @@
   }
 
   .tittle-page-card__nav {
-    border-bottom: 2.5px solid ;
+    border-bottom: 2.5px solid var(--acsent-00);
     
     display: flex;
     justify-content: space-between;
@@ -182,7 +182,15 @@
   }
   
   .tittle-page-card__nav--right {
-    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+
+    /* background-color: red; */
+    /* width: 15%; */
+  }
+
+  .tittle-page-card__nav--right img {
+    margin: 0 0.5rem 0.6rem 0.5rem;
   }
 
   .tittle-page-card__nav--left {
@@ -192,7 +200,7 @@
   /*Demo-Reel Section*/
 
   .demor-reel {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     display: flex;
     justify-content: center;
