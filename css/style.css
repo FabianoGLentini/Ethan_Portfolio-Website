@@ -217,12 +217,16 @@
 
   /*Big Parallax*/
 
+  body {
+    background-color: black;
+  }
+
   .parallax-02 {
-    /* width: 100vw; */
-    width: 110vw;
-    margin-top: 650px;
-    z-index: -1;
+    width: 100vw;
+    z-index: -2;
     right: 0;
+    margin: auto;
+    overflow-y: hidden;
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -234,7 +238,6 @@
     /* border: 2px solid blue; */
 
     display: flex;
-    margin: auto;
     color: var(--white);
     height: 1000px;
     max-width: 1120px;
