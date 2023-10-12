@@ -225,7 +225,7 @@
     width: 100vw;
     z-index: -2;
     right: 0;
-    max-height: 3500px;
+    max-height: 3000px;
     margin: auto;
     /* overflow-y: hidden; */
     position: absolute;
@@ -234,6 +234,13 @@
     background-size: cover;
     box-shadow: 0 0 8px 8px white inset;
 
+  }
+
+  .container {
+    overflow: none;
+    background-color: red;
+    width: 500px;
+    height: 500px;
   }
 
   /*About Me Section*/
