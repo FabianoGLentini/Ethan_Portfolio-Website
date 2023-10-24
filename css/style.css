@@ -46,7 +46,7 @@
     --acsent-00: #ED3B0D;
     --acsent--01: #478CB9;
     --acsent-02: #0a6197a8;
-    --acsent-03: #0a619783;
+    --acsent-03: #0a6197ad;
     --white: #FFFFFF;
     --black: hsl(0, 0%, 0%);
     --transparent: #ffffff00;
@@ -259,7 +259,8 @@
 
   .about-me__Wrap {
     /* border: 2px solid orange; */
-
+    margin-top: 11rem;
+    height: min(150vh,1250px);
     width: 100%;
   }
 
@@ -360,7 +361,7 @@
     /* display: inline-block; */
     position: absolute;
     margin-top: auto;
-    width: 100%;
+     width: 100%;
     z-index: 9999px;
     color: var(--acsent-02);
     background: linear-gradient(180deg, rgba(10,97,151,0.8) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 100%);
