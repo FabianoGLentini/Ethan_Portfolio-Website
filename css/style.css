@@ -189,9 +189,6 @@
   .tittle-page-card__nav--right {
     display: flex;
     justify-content: flex-end;
-
-    /* background-color: red; */
-    /* width: 15%; */
   }
 
   .tittle-page-card__nav--right img {
@@ -230,17 +227,8 @@
     width: 100vw;
     z-index: -2;
     right: 0;
-    /* max-height: 3000px; */
-    /* max-width: 1920px; */
-    /* margin: auto; */
-    /* overflow-y: hidden; */
-    /* position: absolute; */
-    /* top: 1500px; */
     background-repeat: no-repeat;
     object-fit: cover;
-    /* background-size: cover; */
-    /* box-shadow: 0 0 8px 8px white inset; */
-
   }
 
   .container {
@@ -252,13 +240,13 @@
     padding-top: 80rem;
     position: absolute;
     max-height: 3000px;
-    /* height: 5000px; */
    }
 
   /*About Me Section*/
 
   .about-me__Wrap {
     /* border: 2px solid orange; */
+
     margin-top: 11rem;
     height: min(150vh,1250px);
     width: 100%;
@@ -276,35 +264,20 @@
     justify-content: flex-end;
   }
 
-  /* .bg{
-    border: 2px solid red;
-
-    background-image: url(Img/About\ me\ BG.svg);
-    background-repeat: no-repeat;
-    width: auto;
-    background-image: url(Img/About\ me\ BG.svg);
-  } */
+  .project__accent{
+    color: var(--acsent-00);
+  }
 
   .about-me-body {
-    /* border: 2px solid green; */
-    /* background-color: blue; */
-
     position: relative;
     z-index: -1px;
-    /* backdrop-filter: blur(3px); */
     margin: 15rem 5rem;
     padding: 1.5rem;
     height: 500px;
     width: min(100%,450px);
-    /* background-image: url(Img/About\ me\ BG.svg); */
     border-radius: 55px;
-    /* background-repeat: no-repeat; */
-
-    
     background: radial-gradient( var(--acsent-03) 5%, var(--acsent-03) 20%);
     box-shadow: 0 0 40px 40px var(--acsent-03) ;
-    /* backdrop-filter: blur(50px); */
-
   }
 
   .about-me-body h3 {
@@ -344,7 +317,6 @@
     position: relative;
     flex-direction: column;
     justify-content: flex-end;
-    /* height: 410px; */
     width: 250px;
   }
   
@@ -358,7 +330,6 @@
   footer {
     /* border: 2px solid red; */
 
-    /* display: inline-block; */
     position: absolute;
     margin-top: auto;
      width: 100%;
