@@ -46,6 +46,7 @@
     --acsent-00: #ED3B0D;
     --acsent--01: #478CB9;
     --acsent-02: #0a6197a8;
+    --acsent-03: #0a619783;
     --white: #FFFFFF;
     --black: hsl(0, 0%, 0%);
     --transparent: #ffffff00;
@@ -274,6 +275,15 @@
     justify-content: flex-end;
   }
 
+  /* .bg{
+    border: 2px solid red;
+
+    background-image: url(Img/About\ me\ BG.svg);
+    background-repeat: no-repeat;
+    width: auto;
+    background-image: url(Img/About\ me\ BG.svg);
+  } */
+
   .about-me-body {
     /* border: 2px solid green; */
     /* background-color: blue; */
@@ -285,10 +295,15 @@
     padding: 1.5rem;
     height: 500px;
     width: min(100%,450px);
-    /* background: radial-gradient(circle, rgba(71,140,185,0.7) 23%, rgba(0,0,0,0)); */
-    background-image: url(Img/About\ me\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    /* background-image: url(Img/About\ me\ BG.svg); */
+    border-radius: 55px;
+    /* background-repeat: no-repeat; */
+
+    
+    background: radial-gradient( var(--acsent-03) 5%, var(--acsent-03) 20%);
+    box-shadow: 0 0 40px 40px var(--acsent-03) ;
+    /* backdrop-filter: blur(50px); */
+
   }
 
   .about-me-body h3 {
