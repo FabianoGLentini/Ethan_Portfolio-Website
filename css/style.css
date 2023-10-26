@@ -68,6 +68,12 @@
     src: url("Fonts/Roboto-Bold.ttf");
   }
 
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    src: url("Fonts/Montserrat-Light.ttf");
+  }
+
   /*Font*/
 
   h1 {
@@ -90,7 +96,7 @@
 
   h4 {
     font-family: "Roboto";
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
   }
 
@@ -102,8 +108,22 @@
 
   p {
     font-family: "Inter";
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
+  }
+
+  .projects-list__ul ul li {
+    font-family: "Montserrat";
+    font-style: thin;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-align: start;
+    list-style: disc;
+    /* width: 100px; */
+  }
+
+  span {
+    font-size: 1.5rem;
   }
 
   /*Layout*/
@@ -124,18 +144,8 @@
 
   /*Heaader/Tittle Page Section*/
 
-  .parallax-01 {
-    position: absolute;
-    background-image: url("Img/Cloud__Upside-down_TittleBg\ 1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -3;
-    min-width: 1700px;
-    width: max(130%, 1700px);
-  }
-
   .tittle-page {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
     display: flex;
     align-items: center;
@@ -145,11 +155,12 @@
 
   .tittle-page__name {
     width: 95%;
-    padding: 5rem 0;
+    /* padding: 0 0 5rem 0; */
+    padding-bottom: 10rem;
   }
 
   .tittle-page-card {
-    border: 2px solid green; 
+    /* border: 2px solid green;  */
 
     align-items: center;
     backdrop-filter: blur(5px);
@@ -159,10 +170,10 @@
   }
 
   .tittle-page-card__body {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     
     justify-content: space-between;
-    padding: 5rem;
+    padding-bottom: 3rem;
     height: 100%;
     width: min(100%, 1420px);
   }
@@ -231,6 +242,18 @@
     object-fit: cover;
   }
 
+  
+  .parallax-01 {
+    position: absolute;
+    background-image: url("Img/Cloud__Upside-down_TittleBg\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -3;
+    min-width: 1700px;
+    width: max(130%, 1700px);
+  }
+
+
   .container {
     /* background-color: rgba(255, 0, 0, 0.281); */
 
@@ -266,6 +289,7 @@
 
   .project__accent{
     color: var(--acsent-00);
+    font-size: 1.8rem;
   }
 
   .about-me-body {
@@ -304,6 +328,12 @@
     margin: 2rem;
   }
 
+  .projects-list ul div {
+    /* background-color: rebeccapurple; */
+
+    width: 175px;
+  }
+
   .projects-list__ul > li {
     border: 2px solid red;
 
@@ -316,7 +346,7 @@
     background-color: black;
     position: relative;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 250px;
   }
   
