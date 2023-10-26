@@ -313,7 +313,8 @@
   .projects {
     /* border: 2px solid red; */
 
-    height: max(500px, fit-content);
+    height: auto;
+    min-height: 70rem;
     z-index: -100;
     padding-top: 5rem;
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(10,97,151,0.8) 10%, rgba(10,97,151,0.8) 100%);
