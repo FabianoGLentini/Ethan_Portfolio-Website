@@ -331,23 +331,25 @@
   .projects-list ul div {
     /* background-color: rebeccapurple; */
 
-    width: 175px;
+    width: 200px;
   }
 
   .projects-list__ul > li {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     display: flex;
     align-items: center;
     border-radius: 55px;
-    overflow: hidden;
+    width: 265px;
+    height: 400px;
+    /* overflow: hidden; */
     padding: 1rem;
     flex-shrink: 0;
     background-color: black;
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
-    width: 250px;
+
   }
   
   .projects-list img {
