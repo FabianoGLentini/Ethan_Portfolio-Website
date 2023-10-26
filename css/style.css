@@ -74,6 +74,17 @@
     src: url("Fonts/Montserrat-Light.ttf");
   }
 
+  @font-face {
+    font-family: "Montserrat-thin";
+    font-weight: 100;
+    src: url("Fonts/Montserrat-Thin.ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto-flex";
+    font-weight: 130;
+    src: url("Fonts/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf");
+  }
   /*Font*/
 
   h1 {
@@ -90,8 +101,9 @@
 
   h3 {
     font-family: "Roboto";
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
+    margin: 2.5rem 0 2.5rem 0;
   }
 
   h4 {
@@ -107,9 +119,10 @@
   }
 
   p {
-    font-family: "Inter";
+    font-family: "Roboto-flex";
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 100;
+    margin: 1.2rem 0;
   }
 
   .projects-list__ul ul li {
@@ -131,6 +144,23 @@
   span {
     font-size: 1.5rem;
   }
+
+  footer h3 {
+    font-size: 6rem;
+  }
+
+  .footer__get-in-touch--left a {
+    font-family: "Inter";
+    font-size: 2rem;
+    color: var(--acsent-00);
+    padding-left: 0.5rem;
+  }
+
+  .footer__get-in-touch--left span {
+    font-family: "Inter";
+    font-size: 2rem;
+  }
+
 
   /*Layout*/
 
@@ -400,6 +430,7 @@
   .footer__see-more--righ {
     text-align: end;
   }
+
 
 
 /******************************************
