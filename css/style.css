@@ -85,6 +85,7 @@
     font-weight: 130;
     src: url("Fonts/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf");
   }
+
   /*Font*/
 
   h1 {
@@ -114,7 +115,7 @@
 
   .tittle-page-card__nav--left a {
     font-family: "Inter";
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
   }
 
@@ -163,6 +164,10 @@
 
 
   /*Layout*/
+
+  html {
+    overflow-x: hidden;
+  }
 
   .flex-row {
     display: flex;
