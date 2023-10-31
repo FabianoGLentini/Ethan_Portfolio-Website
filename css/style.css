@@ -379,6 +379,10 @@
     margin: 2rem;
   }
 
+  .projects-list__ul>li>a {
+    color: var(--white);
+  }
+
   .projects-list ul div {
     /* background-color: rebeccapurple; */
 
@@ -400,7 +404,6 @@
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
-
   }
   
   .projects-list img {
