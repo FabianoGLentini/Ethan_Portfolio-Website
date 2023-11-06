@@ -1,6 +1,3 @@
-Absolutely! Here's the revised structure with the Figma Design Preview section placed before the Design Process & Client Contribution section in the README.md:
-
-```markdown
 # Sound Design Portfolio Website
 
 This website was developed for a client's sound design portfolio. The visual design was meticulously crafted using Figma, aligning closely with the client's sound design style. The design was brought to life using HTML, CSS, and JavaScript to create an atmospheric experience that resonates with the sound designer's work.
@@ -26,7 +23,3 @@ Continuing forward, the focus remains on refining the user experience. This invo
 There are plans to expand the website by adding more pages in the future. This expansion aims to offer a broader display of the sound designer's portfolio, enriching the user experience.
 
 Feel free to contact me for further details or inquiries about this project.
-
-```
-
-This revised structure places the Figma Design Preview section before the Design Process & Client Contribution section in the README.md file within your GitHub repository. Please replace the `link_to_figma_design` placeholder with the actual link to the Figma design, and add an image or GIF of your website preview to present your work effectively.
