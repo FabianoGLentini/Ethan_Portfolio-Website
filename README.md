@@ -4,7 +4,7 @@ This website was developed for a client's sound design portfolio. The visual des
 
 ## Figma Design Preview
 
-Attached here is the [Figma design](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6) that served as the foundation for the development of this website.
+Attached here is the [Figma design](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6) I created that served as the foundation for the development of this website.
 
 ![Design](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6)
 
