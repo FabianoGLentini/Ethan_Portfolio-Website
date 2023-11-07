@@ -8,10 +8,6 @@ Attached here is the [Figma design](https://github.com/FabianoGLentini/Ethan_Por
 
 ![Design](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6)
 
-### Preview
-
-[Include an image or a GIF of the website here]
-
 ## Design Process & Client Contribution
 
 The visual design was created using Figma, ensuring it matched the client's sound design aesthetics. As part of the ambiance-building strategy, the client contributed images, utilizing their photography hobby, which serve as a key asset in enhancing the overall atmosphere of the website. This design concept was then implemented using HTML, CSS, and JavaScript to create a captivating web experience that complements the sound designer's work.
