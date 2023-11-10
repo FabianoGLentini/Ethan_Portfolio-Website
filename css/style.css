@@ -46,7 +46,7 @@
     --acsent-00: #ED3B0D;
     --acsent--01: #478CB9;
     --acsent-02: #0a6197a8;
-    --acsent-03: #0a6197ad;
+    --acsent-03: rgb(10, 97, 151, 0.445);
     --acsent-04: #e0370da1;
     --white: #FFFFFF;
     --black: hsl(0, 0%, 0%);
@@ -254,7 +254,7 @@
 
   /*Demo-Reel Section*/
 
-  .demor-reel {
+  .demo-reel {
     /* border: 2px solid red; */
 
     display: flex;
@@ -305,7 +305,7 @@
     width: 100vw;
     padding-top: 80rem;
     position: absolute;
-    max-height: 3000px;
+    max-height: 5000px;
    }
 
   /*About Me Section*/
@@ -365,7 +365,7 @@
     min-height: 80rem;
     z-index: -100;
     padding-bottom: 5rem;
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(10,97,151,0.8) 10%, rgba(10,97,151,0.8) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, var(--acsent-03) 10%,var(--acsent-03) 100%);
     color: var(--white);
     text-align: center;
   }
@@ -423,7 +423,7 @@
     width: 100%;
     z-index: 9999px;
     color: var(--acsent-02);
-    background: linear-gradient(180deg, rgba(10,97,151,0.8) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(10, 97, 151, 0.445) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 100%);
     height: 100vh;
   }
 
