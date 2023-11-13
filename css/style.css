@@ -489,3 +489,25 @@ html {
 
 
 
+/******************************************
+/* Responsive
+/*******************************************/
+
+
+
+
+@media (max-height: 635px) {
+
+  .about-me__Wrap {
+    height: auto;
+  }
+
+}
+
+@media (max-width: 635px) {
+
+  .about-me__Wrap {
+    height: auto;
+  }
+
+}
