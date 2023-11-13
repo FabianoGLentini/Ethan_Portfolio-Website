@@ -311,7 +311,7 @@
   /*About Me Section*/
 
   .about-me__Wrap {
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
 
     margin-top: 11rem;
     height: min(150vh,1250px);
@@ -319,7 +319,7 @@
   }
 
   .about-me {
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     
     display: flex;
     margin: 0 auto;
@@ -356,7 +356,7 @@
   /*Projects Section*/
 
   .projects {
-    /* border: 2px solid red; */
+    border: 2px solid red;
 
     display: flex;
     align-items: center;
@@ -490,4 +490,25 @@ html {
 }
 
 
+/******************************************
+/* Responsive
+/*******************************************/
 
+
+
+
+@media (max-height: 635px) {
+
+  .about-me__Wrap {
+    height: auto;
+  }
+
+}
+
+@media (max-width: 635px) {
+
+  .about-me__Wrap {
+    height: auto;
+  }
+
+}
