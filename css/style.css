@@ -190,8 +190,9 @@
 
     display: flex;
     align-items: center;
+    padding-top: 11rem;
     color: var(--acsent-02);
-    height: 95vh;
+    height: 95%;
   }
 
   .tittle-page__name {
