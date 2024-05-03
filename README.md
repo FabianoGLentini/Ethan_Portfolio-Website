@@ -2,6 +2,8 @@
 
 This website was developed for a client's sound design portfolio. The visual design was meticulously crafted using Figma, aligning closely with the client's sound design style. The design was brought to life using HTML, CSS, and JavaScript to create an atmospheric experience that resonates with the sound designer's work.
 
+You can view the Website [here](https://fabianoglentini.github.io/Ethan_Portfolio-Website/).
+
 ## Figma Design Preview
 
 Attached here is the [Figma design](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6) I created that served as the foundation for the development of this website.
