@@ -516,8 +516,7 @@ html {
 }
 
 .mobile-nav-toggle {
-  width: 40px;
-  height: 40px;
+  padding: 25px;
   border-radius: 100%;
   border: none;
   background-color: var(--acsent-00);
@@ -530,7 +529,6 @@ html {
 .mobile-nav-toggle{
   display: block;
   position: absolute;
-  /* width: 3rem; */
   z-index: 9999;
   background-image: url(Img/Hamburger-Icon.svg);
   background-repeat: no-repeat;
@@ -567,7 +565,7 @@ html {
 }
 
 .mobile-nav-toggle[aria-expanded="true"]{
-  background-image:url(assets/img/Icons/menu_X.svg) ;
+  background-image:url(Img/X-Icon.svg) ;
   top: 3.2rem; 
   right: 1.8vw;
 }
