@@ -515,8 +515,8 @@ html {
 }
 
 .mobile-nav-toggle {
-  width: 56px;
-  height: 56px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
   border: none;
   background-color: var(--acsent-00);
@@ -526,18 +526,19 @@ html {
     /*Menu Toggle*/
 
   
-/* .mobile-nav-toggle{
+.mobile-nav-toggle{
   display: block;
   position: absolute;
-  width: 3rem;
+  /* width: 3rem; */
   z-index: 9999;
-  background-image: url(assets/img/Icons/134216_menu_lines_hamburger_icon\ 1.svg);
+  background-image: url(Img/Hamburger-Icon.svg);
   background-repeat: no-repeat;
+  background-position: center;
   border: 0;
-  background-color: transparent;
-  aspect-ratio: 1;
-  top: 2.5rem; 
-  right: 3vw;
+  /* background-color: transparent; */
+  /* aspect-ratio: 1; */
+  /* top: 2.5rem;  */
+  /* right: 3vw; */
 }
 
 .nav-body{
@@ -568,7 +569,7 @@ html {
   background-image:url(assets/img/Icons/menu_X.svg) ;
   top: 3.2rem; 
   right: 1.8vw;
-} */
+}
   
 
   /*About Me*/
@@ -590,3 +591,16 @@ html {
 }
 
 
+ /******************************************
+/* Accesscibilety
+/*******************************************/
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
