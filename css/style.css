@@ -569,6 +569,7 @@ html {
   transition: transform 350ms ease-out;
 }
 
+
 .nav-body[data-visible="true"]{
   transform: translateX(70%);
 }
