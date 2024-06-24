@@ -42,6 +42,7 @@
 
   :root {
     --dark-focus-01: #05090c9d;
+    --dark-focus-02: #05090ce7;
     --main-02: #044B77;
     --acsent-00: #ED3B0D;
     --acsent--01: #478CB9;
@@ -511,8 +512,12 @@ html {
   justify-content: flex-end;
   z-index: 999;
   width: 100%;
-  padding: 2.5rem;
+  padding: 35px 75px;
   position: fixed;
+}
+
+.tittle-page-card__nav li{
+  padding: 15px 0px;
 }
 
 .mobile-nav-toggle {
@@ -526,7 +531,7 @@ html {
 
   nav .tittle-page-card__nav--right{
     justify-content: start;
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 
     /*Menu Toggle*/
@@ -549,13 +554,16 @@ html {
 
 
 .nav-body{
-  border: 4px solid white;
+  /* border: 4px solid white; */
 
   display: block;
-  height: 100vh ;
+  padding-top: 100px;
+  top: -35%;
+  height: 105vh ;
   position: absolute;
   z-index: 9999;
-  background-color: var(--main-clr-01);
+  background-color: var(--dark-focus-02);
+  backdrop-filter: blur(5px);
 
   transform: translateX(100%);
   transition: transform 350ms ease-out;
