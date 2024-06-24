@@ -505,14 +505,14 @@ html {
 
   /*Tittle Card*/
 
-  /* .tittle-page__name {
+  .tittle-page__name {
     border-bottom: 3px solid var(--acsent-00);
     padding-bottom: 50px;
-  } */
+  }
 
-  /* .tittle-page-card__body{
-    padding-bottom: 0;
-  } */
+  .tittle-page-card__body{
+    padding-bottom: 35px;
+  }
 
   /*Header*/
 
