@@ -434,9 +434,10 @@
     justify-content: space-between;
     max-width: 1440px;
     margin: auto;
+    flex-wrap: wrap;
   }
 
-  footer>div > div{
+  footer div  div{
     margin: 25rem 7rem;
   }
 
@@ -498,7 +499,14 @@ html {
 /* Responsive
 /*******************************************/
 
+@media (max-width:960px) {
 
+  /*Footer*/
+
+  footer div  div{
+    margin: 10rem 7rem 5rem;
+  }
+}
 
 
 @media (max-width:635px) {
