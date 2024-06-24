@@ -504,7 +504,11 @@ html {
 
 @media (max-width:635px) {
 
-/*Header*/
+  /*Tittle Card*/
+
+
+
+  /*Header*/
 
 
 .mobile-nav-toggle__div {
@@ -513,7 +517,7 @@ html {
   z-index: 999;
   width: 100%;
   padding: 35px 5rem;
-  position: fixed;
+  position: absolute;
 }
 
 .tittle-page-card__nav li{
