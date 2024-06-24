@@ -554,13 +554,13 @@ html {
 
 
 .nav-body{
-  /* border: 4px solid white; */
+  border: 4px solid white;
 
   display: block;
   padding-top: 100px;
   top: -35%;
   height: 105vh ;
-  position: absolute;
+  position: fixed !important;
   z-index: 9999;
   background-color: var(--dark-focus-02);
   backdrop-filter: blur(5px);
@@ -568,7 +568,6 @@ html {
   transform: translateX(100%);
   transition: transform 350ms ease-out;
 }
-
 
 .nav-body[data-visible="true"]{
   transform: translateX(70%);
