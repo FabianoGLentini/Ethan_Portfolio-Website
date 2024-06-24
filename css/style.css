@@ -265,6 +265,7 @@
     align-items: center;
     height: max(110vh, auto);
     padding: 30vh 0;
+    /* min-height: 600px; */
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6921296296296297) 6%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 87%, rgba(0,0,0,0.5277777777777778) 96%, rgba(0,0,0,0) 100%);
   }
 
@@ -282,6 +283,7 @@
 
   .parallax-02 {
     width: 100vw;
+    min-width: 960px;
     z-index: -2;
     right: 0;
     background-repeat: no-repeat;
@@ -308,7 +310,7 @@
     width: 100vw;
     padding-top: 80rem;
     position: absolute;
-    max-height: 5000px;
+    /* max-height: 5000px; */
    }
 
   /*About Me Section*/
@@ -506,6 +508,13 @@ html {
   footer div  div{
     margin: 10rem 7rem 5rem;
   }
+
+  /*About Me*/
+
+  /* .parallax-02 {
+    wi
+  } */
+
 }
 
 
