@@ -508,13 +508,6 @@ html {
   footer div  div{
     margin: 10rem 7rem 5rem;
   }
-
-  /*About Me*/
-
-  /* .parallax-02 {
-    wi
-  } */
-
 }
 
 
@@ -628,10 +621,14 @@ html {
 
   /*About Me*/
 
+
   .about-me__Wrap {
     height: auto;
   }
 
+  .footer__see-more--righ {
+    text-align: start;
+  }
 
 }
 
@@ -644,6 +641,15 @@ html {
   }
 }
 
+@media (max-width:390px) {
+
+  /*Footer*/
+
+  footer div  div{
+    margin: 10rem 2rem 5rem;
+  }
+
+}
 
  /******************************************
 /* Accesscibilety
