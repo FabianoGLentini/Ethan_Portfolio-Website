@@ -512,7 +512,7 @@ html {
   justify-content: flex-end;
   z-index: 999;
   width: 100%;
-  padding: 35px 75px;
+  padding: 35px 5rem;
   position: fixed;
 }
 
@@ -521,7 +521,7 @@ html {
 }
 
 .mobile-nav-toggle {
-  padding: 25px;
+  padding: 22px;
   border-radius: 100%;
   border: none;
   background-color: var(--acsent-00);
@@ -530,7 +530,7 @@ html {
   /*Social Icon Nav*/
 
   nav .tittle-page-card__nav--right{
-    justify-content: start;
+    justify-content: center;
     /* padding: 0 15px; */
   }
 
@@ -554,13 +554,14 @@ html {
 
 
 .nav-body{
-  border: 4px solid white;
+  /* border: 4px solid white; */
 
   display: block;
   padding-top: 100px;
-  top: -35%;
+  top: -12rem;
   height: 105vh ;
-  position: fixed !important;
+  position: fixed;
+  border: none;
   z-index: 9999;
   background-color: var(--dark-focus-02);
   backdrop-filter: blur(5px);
@@ -571,12 +572,16 @@ html {
 
 
 .nav-body[data-visible="true"]{
-  transform: translateX(70%);
+  transform: translateX(0%);
+}
+
+.mobile__styling {
+  width: 100%;
 }
 
 .nav-body .tittle-page-card__nav--left{
   flex-direction: column;
-  align-items: start;
+  /* align-items: start; */
 }
 
 .nav-body li a{
