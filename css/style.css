@@ -519,7 +519,8 @@ html {
     padding-bottom: 50px;
   }
 
-  .tittle-page-card__body{
+  .tittle-page-card__body{ /*!!! this is the movile bar class*/
+    /* position:;!!! to adjust */
     padding-bottom: 35px;
   }
 
