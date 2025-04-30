@@ -1,25 +1,39 @@
 # Sound Design Portfolio Website
 
-This website was developed for a client's sound design portfolio. The visual design was meticulously crafted using Figma, aligning closely with the client's sound design style. The design was brought to life using HTML, CSS, and JavaScript to create an atmospheric experience that resonates with the sound designer's work.
+A custom-built portfolio website designed and developed for a sound designer client, this project merges **immersive visuals** with a minimalist layout to showcase creative work in audio and sound design. The site was designed in **Figma** and developed using **HTML, CSS, and JavaScript**, with careful attention paid to creating an atmospheric experience that complements the artist’s style.
 
-You can view the Website [here](https://fabianoglentini.github.io/Ethan_Portfolio-Website/).
+**Live Website:** [View Here](https://fabianoglentini.github.io/Ethan_Portfolio-Website/)
 
-## Figma Design Preview
+---
 
-Attached here is the [Figma design](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6) I created that served as the foundation for the development of this website.
+## Visual Design
 
+The site’s design was crafted to align with the client’s aesthetic and creative identity. It features:
+
+- A moody, minimalist interface inspired by cinematic soundscapes  
+- Smooth scrolling and transitions to guide the user through the portfolio  
+- Use of custom photography contributed by the client, enhancing the immersive feel  
+
+**Figma Design Preview:**  
+[View Figma Mockup](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6)  
 ![Design](https://github.com/FabianoGLentini/Ethan_Portfolio-Website/assets/132173298/68eb5ba8-ac6d-46a9-bcf8-e14f5e4784e6)
 
-## Design Process & Client Contribution
+---
 
-The visual design was created using Figma, ensuring it matched the client's sound design aesthetics. As part of the ambiance-building strategy, the client contributed images, utilizing their photography hobby, which serve as a key asset in enhancing the overall atmosphere of the website. This design concept was then implemented using HTML, CSS, and JavaScript to create a captivating web experience that complements the sound designer's work.
+## Collaborative Process
 
-## Ongoing Development
+This project was a collaborative effort between designer and client. The client provided visual assets through their own photography, which were integrated into the layout to enhance atmosphere and thematic coherence. From initial mockups to final implementation, the focus remained on achieving a cohesive digital presence tailored to the client’s portfolio and style.
 
-Continuing forward, the focus remains on refining the user experience. This involves further development of page effects, enhancing page responsiveness, and ensuring the effective showcase of the sound designer's portfolio.
+---
 
-## Future Expansion
+## 💡 Notes
 
-There are plans to expand the website by adding more pages in the future. This expansion aims to offer a broader display of the sound designer's portfolio, enriching the user experience.
+- Fully responsive and optimized for desktop and mobile  
+- Designed for easy expansion as the client’s portfolio grows  
+- Delivered as a static site for performance and simplicity
 
-Feel free to contact me for further details or inquiries about this project.
+---
+
+## Contact
+
+If you're interested in learning more about this project or collaborating on something similar, feel free to reach out.
