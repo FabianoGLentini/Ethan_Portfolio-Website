@@ -1,4 +1,11 @@
+/******************************************
+/* Onload Center in title
+/*******************************************/
 
+// insure that all menu info and main logo in view on load
+window.addEventListener("load", _ => {
+    document.getElementById("title-card").scrollIntoView({behavior: "auto"})
+})
 
 
 /******************************************
