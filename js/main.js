@@ -6,7 +6,10 @@
 window.addEventListener("load", _ => {
     
     if(!sessionStorage.getItem("visited")){
-        document.getElementById("title-card").scrollHeight({behavior: "smooth"})
+        document.getElementById("title-card").scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        })
         sessionStorage.setItem("visited", true)
 
     }
