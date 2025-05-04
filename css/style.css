@@ -519,7 +519,8 @@ html {
     padding-bottom: 50px;
   }
 
-  .tittle-page-card__body{
+  .tittle-page-card__body{ /*!!! this is the movile bar class*/
+    /* position:;!!! to adjust */
     padding-bottom: 35px;
   }
 
@@ -531,7 +532,7 @@ html {
   justify-content: flex-end;
   z-index: 9999;
   width: 100%;
-  padding: 35px 5rem;
+  padding: 35px 2rem;
   position: absolute;
 }
 
