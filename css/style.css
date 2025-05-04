@@ -286,16 +286,14 @@
     min-width: 960px;
     z-index: -2;
     right: 0;
-    background-repeat: no-repeat;
+    /* background-image: url("css/Img/Big BG Pan/Big BG Pan (Desktop).jpg"); */
+    /* background-repeat: no-repeat; */
     object-fit: cover;
   }
 
   
   .parallax-01 {
     position: absolute;
-    background-image: url("Img/Cloud__Upside-down_TittleBg\ 1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     z-index: -3;
     min-width: 1700px;
     width: max(130%, 1700px);
@@ -494,7 +492,15 @@ html {
 /* Responsive
 /*******************************************/
 
+
 @media (max-width:960px) {
+
+  
+  
+  .parallax-01 {
+    min-width: 1200px;
+    width: max(130%, 1200px);
+  }
 
   /*Footer*/
 
@@ -505,6 +511,11 @@ html {
 
 
 @media (max-width:635px) {
+
+  .parallax-01 {
+    min-width: 800px;
+    width: max(130%, 800px);
+  }
 
   /*Tittle Card*/
 
