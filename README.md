@@ -54,7 +54,7 @@ The design was tailored to reflect the client’s aesthetic and creative identit
 
 ## Collaborative Process
 
-The project was a collaborative effort with the client, integrating visual assets (custom photography) and iterative design feedback. The workflow included:
+The client provided custom photography assets, which were incorporated into the website’s design to enhance visual identity and thematic consistency. I independently developed the design layout, implemented the assets, and led all technical development.
 
 * Design prototyping and revisions in **Figma**.
 * Ongoing testing across devices, screen resolutions, and high-DPI environments.
