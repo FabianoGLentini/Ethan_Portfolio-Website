@@ -3,7 +3,7 @@
 /*******************************************/
 
 // insure that all menu info and main logo in view on first load
-window.addEventListener("load", (_) => {
+window.addEventListener("load", () => {
   if (!sessionStorage.getItem("visited")) {
     document.getElementById("title-card").scrollIntoView({
       behavior: "smooth",
